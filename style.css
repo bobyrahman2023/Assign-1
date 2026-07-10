@@ -123,14 +123,25 @@ button {
   margin-bottom: 30px;
 }
 
-.cards {
-  padding: 0 40px;
+.card {
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.meet-card img {
+  object-fit: cover;
 }
 
 .cards-description {
   color: rgb(0, 0, 255);
   font-weight: 600;
   margin-bottom: 12px;
+}
+
+.gallery-card-desc {
+  margin-left: 10px;
+  margin-bottom: 30px;
 }
 
 .meet-card h2 {
@@ -153,4 +164,68 @@ button {
 .price-header h1 {
   font-size: 50px;
   margin-bottom: 20px;
+}
+
+.price-card {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.price_cards {
+  width: 300px;
+  border: 1px solid rgb(158, 158, 158);
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.price_cards h1 {
+  color: black;
+  margin-bottom: 2px;
+}
+
+.price_cards ul {
+  margin-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  line-height: 1.5rem;
+}
+
+.price-tag-name {
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.stnd-btn {
+  border: 1px solid blue;
+  background-color: white;
+  color: blue;
+}
+
+.team-btn {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+.pro {
+  background-color: #000c2e;
+  color: white;
+}
+
+.pro h1 {
+  color: white;
 }
