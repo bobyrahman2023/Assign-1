@@ -49,6 +49,10 @@ button {
   border-radius: 8px;
 }
 
+button:hover {
+  background-color: #008fcc;
+}
+
 .hero {
   max-width: 1500px;
   position: relative;
@@ -199,7 +203,7 @@ button {
   margin-left: 20px;
   padding-top: 20px;
   margin-bottom: 40px;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 
 .price-tag-name {
@@ -223,10 +227,18 @@ button {
   color: blue;
 }
 
+.stnd-btn:hover {
+  background-color: rgb(230, 232, 255);
+}
+
 .team-btn {
   border: 1px solid rgb(0, 0, 0);
   background-color: white;
   color: rgb(0, 0, 0);
+}
+
+.team-btn:hover {
+  background-color: rgb(230, 232, 255);
 }
 
 .pro {
@@ -247,7 +259,7 @@ button {
   background: #000c2e;
   color: #fff;
   border-radius: 10px;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 
 .container {
@@ -292,6 +304,7 @@ button {
   gap: 15px;
   margin-bottom: 20px;
   position: relative;
+  align-items: center;
 }
 
 .time {
@@ -310,4 +323,54 @@ button {
 
 .time {
   min-width: auto;
+}
+
+.footer {
+  max-width: 1500px;
+  background-color: #000c2e;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  border-bottom: 10px solid rgb(48, 31, 0);
+}
+
+.footer-container {
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icon ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #38bdf8;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: #94a3b8;
+  padding: 10px 0;
+}
+
+.copyright ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.copyright ul a {
+  text-decoration: none;
+  color: #94a3b8;
 }
